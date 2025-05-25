@@ -23,8 +23,8 @@ def main():
     
     headers = {"Authorization": f"Bearer {token}"}
     all_cursus_users = []
-    page = 2201
-    page_nb = 3000
+    page = 3001
+    page_nb = 3500
     while page <= page_nb:
         response = requests.get(
             "https://api.intra.42.fr/v2/locations",

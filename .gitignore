@@ -1,6 +1,2 @@
 /.env
-/all_campus.csv
-/all_coalitions.csv
-/all_cursus_users.csv
-/all_users.csv
-/locations.csv
+/*.csv
