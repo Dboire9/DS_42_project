@@ -1,8 +1,8 @@
-# Neural Network From Scratch
+# Neural Network From Scratch 🧠
 
 This project implements a simple feedforward neural network **from scratch** in Python, **without using high-level machine learning libraries like TensorFlow, PyTorch, or NumPy**. It is designed for educational purposes and demonstrates the core concepts of neural networks, including forward propagation, backpropagation, and training on real-world data.
 
-## Features
+## Features ⚙️
 
 - Custom `Matrix` and `Vector` classes for all linear algebra operations (see `my_tools/VectorMatrixClass.py`)
 - Manual implementation of:
@@ -17,7 +17,7 @@ This project implements a simple feedforward neural network **from scratch** in 
 - Visualization of training cost over epochs
 - Validation accuracy reporting
 
-## File Structure
+## File Structure 📂
 
 ```
 Neural_Network_FromScratch/
@@ -29,7 +29,7 @@ Neural_Network_FromScratch/
 ├── neuron.py                   # Main neural network implementation
 ```
 
-## How to Run
+## How to Run ▶️
 
 1. **Install requirements**  
    Only standard Python libraries are used (no external dependencies).
@@ -46,7 +46,7 @@ Neural_Network_FromScratch/
    - Training cost plotted over epochs
    - Final validation accuracy printed
 
-## Main Components
+## Main Components 🧩
 
 - **neuron.py**  
   Main script: loads data, initializes the network, trains, validates, and plots results.
@@ -60,7 +60,7 @@ Neural_Network_FromScratch/
 - **archive/data.csv**  
   Breast Cancer Wisconsin dataset (features and labels).
 
-## Customization
+## Customization 🛠️
 
 - **Network architecture:**  
   Change `layer_nb` and the starting number of neurons in `init_neuron_layers()`.
@@ -71,7 +71,7 @@ Neural_Network_FromScratch/
 - **Early stopping:**  
   The `train()` function supports early stopping via `patience` and `min_delta` parameters.
 
-## Example Output
+## Example Output 📋
 
 ```
 [30, 64, 32, 16, 1]
@@ -81,7 +81,7 @@ epoch 0: cost = 0.693147
 Final validation accuracy: 0.95
 ```
 
-## Notes
+## Notes 📝
 
 - **No external ML libraries** are used; all math is implemented manually.
 - **For best results**, consider normalizing your input features.
